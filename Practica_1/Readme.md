@@ -1,4 +1,4 @@
-Práctica 1: Layouts en HTML
+# Práctica 1: Layouts en HTML
 En esta práctica se proponen los siguientes layouts básicos en HTML:
 
 1.**Layout de una columna**: Ideal para páginas simples.
