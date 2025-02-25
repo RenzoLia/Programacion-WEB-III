@@ -1,0 +1,83 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+.contenedor_principal
+{
+    display: flex;
+}
+.contenedor_principal .barra_izquierda
+{
+    color: white;
+    background-color: #333;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100px;
+    height: 100vh;
+    padding: 25px;
+}
+
+.contenedor_principal .barra_izquierda .nav a
+{
+    text-decoration: none;
+    color: white;
+    display: block;
+    margin: 25px 0;
+}
+.contenedor_principal .barra_izquierda .nav a:hover
+{
+    color: blueviolet;
+}
+.contenedor_principal .contenedor .encabezado
+{
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 50px;
+    margin-left: 55px;
+}
+.contenedor_principal .contenedor .contenidos 
+{
+    height: 73.5vh;
+    background-color: rebeccapurple;
+    margin-left: 150px;
+    padding: 25px;
+}
+.contenedor_principal .contenedor .contenidos .contenido_1
+{
+    padding-bottom: 25px;
+}
+.contenedor_principal .contenedor .contenidos .contenido_1 h2
+{
+    text-align: center;
+    padding-bottom: 25px;
+}
+.contenedor_principal .contenedor .contenidos .contenido-2
+{
+    padding-bottom: 25px;
+}
+.contenedor_principal .contenedor .contenidos .contenido-2 h2
+{
+    text-align: center;
+    padding-bottom: 25px;
+}
+.contenedor_principal .pie_pagina
+{
+    background-color: black;
+    text-align: center;
+    padding: 25px;
+    color: white;
+}
+.contenedor_principal .barra_derecha
+{
+    padding: 25px;
+    background-color: #7a7171;
+    color: white;
+    width: 150px;
+}
+.contenedor_principal .barra_derecha h2
+{
+    padding-bottom: 25px;
+}

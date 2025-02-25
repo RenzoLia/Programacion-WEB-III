@@ -1,0 +1,53 @@
+* 
+        {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body 
+        {
+            font-family: Arial, sans-serif;
+        }
+
+        .contenedor_principal
+        {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr); 
+            gap: 10px; 
+            padding: 10px;
+        }
+
+        .item 
+        {
+            background-color: #333;
+            color: white;
+            padding: 20px;
+            text-align: center;
+            border-radius: 5px;
+        }
+
+        .item:hover 
+        {
+            background-color: #555;
+        }
+
+        .header 
+        {
+            grid-column: 1 / -1; /* Ocupa todas las columnas */
+            background-color: #555;
+            padding: 20px;
+            text-align: center;
+            color: white;
+            border-radius: 5px;
+        }
+
+        .pie_pagina
+        {
+            grid-column: 1 / -1; 
+            background-color: #555;
+            padding: 20px;
+            text-align: center;
+            color: white;
+            border-radius: 5px;
+        }

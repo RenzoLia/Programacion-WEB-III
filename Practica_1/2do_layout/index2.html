@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Layout de 3 columnas</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .contenedor_principal {
+            display: flex;
+        }
+        .barra_lateral {
+            width: 100px;
+            background-color: #333;
+            color: white;
+            padding: 25px;
+            height: 100vh;
+            position: fixed;
+        }
+        .barra_lateral a {
+            color: white;
+            text-decoration: none;
+            display: block;
+            margin: 25px 0;
+        }
+        .barra_lateral a:hover {
+            color: blueviolet;
+        }
+        .contenido_principal {
+            margin-left: 150px; /* Espacio para la barra lateral izquierda */
+            margin-right: 150px; /* Espacio para la barra lateral derecha */
+            padding: 25px;
+            flex-grow: 1;
+        }
+        .barra_derecha {
+            width: 100px;
+            background-color: #333;
+            color: white;
+            padding: 25px;
+            height: 100vh;
+            position: fixed;
+            right: 0;
+        }
+        .encabezado {
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 25px;
+        }
+        .pie_pagina {
+            text-align: center;
+            color: white;
+            background-color: #333;
+            padding: 25px;
+        }
+    </style>
+</head>
+<body>
+    <div class="contenedor_principal">
+        <!-- Barra lateral izquierda -->
+        <div class="barra_lateral">
+            <h2>Barra Izquierda</h2>
+            <a href="#">Enlace 1</a>
+            <a href="#">Enlace 2</a>
+            <a href="#">Enlace 3</a>
+        </div>
+
+        <!-- Contenido principal -->
+        <div class="contenido_principal">
+            <div class="encabezado">
+                <h1>Layout de tres columnas</h1>
+            </div>
+            <div class="contenidos">
+                <p>
+                    Este es el contenido principal. Aquí va el contenido más importante de la página.
+                </p>
+            </div>
+            <div class="pie_pagina">
+                &copy; 2025 Renzo Lia. Todos los derechos reservados.
+            </div>
+        </div>
+
+        <!-- Barra lateral derecha -->
+        <div class="barra_derecha">
+            <h2>Barra Derecha</h2>
+            <a href="#">Enlace 4</a>
+            <a href="#">Enlace 5</a>
+            <a href="#">Enlace 6</a>
+        </div>
+    </div>
+</body>
+</html>
